@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events Ochestra Concerts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style/n12218324.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+      .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(static/img/ghibli.jpeg);
+        background-size: 420px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container-fluid p-3 mb-2">
+                <a class="navbar-brand" href="n12218324_home.html">Orchestro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="n12218324_home.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Orchestro</a></li>
+                                <li><a class="dropdown-item" href="#">The Location</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="n12218324_events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="n12218324_create-events.html">Create Events</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Booking</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">My Booking</a></li>
+                                <li><a class="dropdown-item" href="n12218324_history.html">Booking History</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Event Banner-->
+        <section class="hero bg-black align-items-end py-5" style="height: 300px;">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="n12218324_home.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="n12218324_events.html">Events</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">The Ghibli Studio</li>
+                    </ol>
+                </nav>
+                <span class="event-badge status-open px-3 py-1">Open — Limited Tickets Left!</span>
+                <h1 class="event-title">Studio Ghibli: A Symphonic Experience</h1>
+                <p class="event-text">Composed by Joe Hisaishi</p>
+            </div>
+        </section>
+
+        <!--Info Bar-->
+        <section class="info-bar">
+            <div class="container">
+                <div class="event-info-bar">
+                    <div class="row text-start align-items-center">
+                        <div class="col-md-3">
+                            <div class="info-item d-flex align-items-start gap-2">
+                                <span class="info-icon">🗓️</span>
+                                <div>
+                                    <p class="info-label mb-1">DATE</p>
+                                    <p class="info-value mb-0">Saturday, 29 May 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info-item d-flex align-items-start gap-2">
+                                <span class="info-icon">🕗</span>
+                                <div>
+                                    <p class="info-label mb-1">TIME</p>
+                                    <p class="info-value mb-0">6:30 PM - 8:30 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info-item d-flex align-items-start gap-2">
+                                <span class="info-icon">📍</span>
+                                <div>
+                                    <p class="info-label mb-1">LOCATION</p>
+                                    <p class="info-value mb-0">Queensland Symphony Orchestra, QLD</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info-item d-flex align-items-start gap-2">
+                                <span class="info-icon">💺</span>
+                                <div>
+                                    <p class="info-label mb-1">SEATS REMAINS</p>
+                                    <p class="info-value mb-0">620/700</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Main Content-->
+        <section class="main-content">
+            <div class="container">
+                <div class="row g-5 align-items-start">
+
+                    <!--Left Column: Description + Programme + Comments-->
+                    <div class="col-lg-7">
+
+                        <!--Description-->
+                        <div class="content-left">
+                            <div class="mb-4">
+                                <p class="section-label">ABOUT THIS PERFORMANCE</p>
+                                <h2 class="section-title">A Studio Ghibli Musical Evening</h2>
+                                <div class="divider-gold"></div>
+                                <p class="content-description">
+                                    Experience the beloved music of Studio Ghibli brought to life through a breathtaking orchestral performance.
+                                    Featuring iconic themes from Howl's Moving Castle, Spirited Away, and more,
+                                    this concert invites you into a world of magic, emotion, and wonder.
+                                    <br><br>
+                                    From sweeping melodies to deeply emotional compositions, each piece captures the essence of Ghibli's timeless storytelling.
+                                    The evening reaches its magical finale with <i>Merry-Go-Round of Life</i>,
+                                    leaving a lasting impression of elegance, nostalgia, and enchantment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--Programme-->
+                        <div class="mb-5">
+                            <p class="section-programme">Programme</p>
+                            <h4 class="section-title">Tonight's Musical Programme</h4>
+                            <div class="divider-gold"></div>
+                            <div class="programme-box">
+                                <div class="number-box">I</div>
+                                <div>
+                                    <div class="first-programme">ACT 1</div>
+                                    <div class="list-programme">
+                                        1. Opening Suite (Studio Ghibli Medley) <br>
+                                        2. My Neighbor Totoro – Path of the Wind <br>
+                                        3. Spirited Away – One Summer's Day <br>
+                                        4. Kiki's Delivery Service – A Town with an Ocean View <br>
+                                        5. Princess Mononoke – Main Theme
+                                    </div>
+                                    <div class="programme-duration">50 mins</div>
+                                </div>
+                            </div>
+                            <div class="programme-box">
+                                <div class="number-box">-</div>
+                                <div>
+                                    <div class="first-programme">Intermission</div>
+                                    <div class="programme-duration">20 mins</div>
+                                </div>
+                            </div>
+                            <div class="programme-box">
+                                <div class="number-box">II</div>
+                                <div>
+                                    <div class="first-programme">ACT 2</div>
+                                    <div class="list-programme">
+                                        6. Castle in the Sky – Carrying You <br>
+                                        7. Howl's Moving Castle – Suite <br>
+                                        8. Emotional build-up pieces <br>
+                                        9. Orchestral reprise (medley) <br>
+                                        10. Merry-Go-Round Life <i>(Grand Finale)</i>
+                                    </div>
+                                    <div class="programme-duration">50 mins</div>
+                                </div>
+                            </div>
+                            <div class="programme-box">
+                                <div class="number-box"></div>
+                                <div>
+                                    <div class="approximate">*Duration: approximately 2 hours (including intermission)</div>
+                                </div>
+                            </div>
+
+                            <!---Dresscode--->
+                            <div class="mt-5, ms-2">
+                              <p class="dresscode">Dresscode: Semi-Formal</p>
+                            </div>
+                        </div>
+
+                        <!--Comments Section-->
+                        <div class="py-5">
+                            <h4 class="text-gold mb-4">Comments</h4>
+                            <div class="divider-gold"></div>
+
+                            <!--Comment Form-->
+                            <div class="mb-4">
+                                <textarea class="form-control mb-2" rows="3" placeholder="Write your thoughts about this concert..."></textarea>
+                                <button class="btn btn-warning mb-3" data-bs-toggle="modal" data-bs-target="#commentModal">
+                                    Post Comment
+                                </button>
+                            </div>
+
+                            <!--Comment List-->
+                            <div class="comment-card">
+                                <div class="comment-box p-3 mb-3">
+                                    <h6 class="comment-author mb-1 text-gold">Amitha S.</h6>
+                                    <p class="comment-date">2 April 2026</p>
+                                    <p class="mb-0 content-description">An absolutely breathtaking performance. The music transported me into a magical world... I didn't want it to end 😍</p>
+                                </div>
+                            </div>
+                            <div class="comment-card">
+                                <div class="comment-box p-3 mb-3">
+                                    <h6 class="comment-author mb-1 text-gold">Hera A.</h6>
+                                    <p class="comment-date">15 December 2025</p>
+                                    <p class="mb-0 content-description">A truly magical night. Highly recommended!</p>
+                                </div>
+                            </div>
+                            <div class="comment-card">
+                                <div class="comment-box p-3 mb-3">
+                                    <h6 class="comment-author mb-1 text-gold">Jacob F.</h6>
+                                    <p class="comment-date">3 August 2025</p>
+                                    <p class="mb-0 content-description">It truly felt like stepping into a Ghibli world. Magical and unforgettable.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Left Column-->
+                    </div>
+
+                    <!--Right Column: Book Tickets-->
+                    <div class="col-lg-5">
+                        <div class="card reserve-box border-0">
+                            <div class="card-body px-4">
+                                <h5 class="card-title">Reserve Your Seat</h5>
+                                <div class="divider-gold"></div>
+                                <p class="card-text">SELECT TICKET TYPE</p>
+
+                                <input type="radio" class="btn-check" name="ticket" id="dreamer" autocomplete="off">
+                                <label class="btn btn-outline-warning w-100 text-start p-4 mb-3" for="dreamer">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h6 class="ticket-name mb-1">Dreamer</h6>
+                                            <small class="ticket-desc">General admission — A & B Reserve</small>
+                                        </div>
+                                        <div>$45</div>
+                                    </div>
+                                </label>
+
+                                <input type="radio" class="btn-check" name="ticket" id="Enchanted" autocomplete="off">
+                                <label class="btn btn-outline-warning w-100 text-start p-4 mb-3" for="Enchanted">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h6 class="ticket-name mb-1">Enchanted</h6>
+                                            <small class="ticket-desc">Orchestra stall (front & center)</small>
+                                        </div>
+                                        <div>$90</div>
+                                    </div>
+                                </label>
+
+                                <input type="radio" class="btn-check" name="ticket" id="Ethreal" autocomplete="off">
+                                <label class="btn btn-outline-warning w-100 text-start p-4 mb-3" for="Ethreal">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h6 class="ticket-name mb-1">Ethreal</h6>
+                                            <small class="ticket-desc">Premium seated</small>
+                                        </div>
+                                        <div>$125</div>
+                                    </div>
+                                </label>
+
+                                <!--QTY & Total-->
+                                <div class="mb-3">
+                                    <label for="quantity">Qty (between 1 and 5):</label>
+                                    <input type="number" name="quantity" id="quantity" min="1" max="5">
+                                </div>
+                                <div class="justify-content-between align-items-center mt-4 mb-4">
+                                    <div class="uppercase">Total:</div>
+                                    <div class="total-price"><b>$180</b></div>
+                                </div>
+
+                                <!--Book Now Button-->
+                                <button class="btn btn-outline-warning mb-3"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#bookingModal">
+                                    Book Now
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Right Column-->
+
+                </div>
+            </div>
+        </section>
+
+        <!--Modal: Post Comment-->
+        <div class="modal fade" id="commentModal" tabindex="-1" aria-labelledby="commentModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="commentModalLabel">Orchestro</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-black">
+                        Your review has been successfully posted! <br>
+                        Thank you for sharing your experience.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal: Confirm Booking-->
+        <div class="modal fade" id="bookingModal" data-bs-backdrop="static"
+             data-bs-keyboard="false" tabindex="-1" aria-labelledby="bookingModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="background-color: #2b1a0e; color: white; border: 1px solid #8B6914;">
+                    <div class="modal-header border-0 pb-0">
+                        <h5 class="modal-title fw-bold" id="bookingModalLabel">Confirm Booking</h5>
+                        <button type="button" class="btn-close btn-close-white"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pt-2">
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Full Name</label>
+                            <input type="text" class="form-control rounded-pill border-0"
+                                   placeholder="Your name"
+                                   style="background-color: white; color: black;">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Email</label>
+                            <input type="email" class="form-control rounded-pill border-0"
+                                   placeholder="your@email.com"
+                                   style="background-color: white; color: black;">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Quantity</label>
+                            <input type="number" class="form-control rounded-pill border-0"
+                                   min="1" max="5"
+                                   style="background-color: white; color: black;">
+                        </div>
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-warning fw-bold py-3 rounded-pill"
+                                    data-bs-dismiss="modal">
+                                Complete Booking
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+      <div class="center-footer">
+        <div class="main-footer">
+          <div class="container">
+          <div class="left-footer">
+
+            <!---Logo Orchestro--->
+              <div>
+                <div class="mt-3">
+                  <img src="static/img/orchestro.png" class="logo-img ms-1">
+                </div>
+                <h3 class="info-left mt-3"> Orchestro</h3>
+                <p class="info-left footer-event">Orchestral experiences, perfectly composed.</p>
+              </div>
+              <div class="divider-gold"></div>
+
+              <!----Keep in Touch-->
+              <div class="row">
+              <div class="col-6">
+                <h4 class="footer-ask">Want to keep in touch?</h4>
+                <form>
+                  <div class="mb-3">
+                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <button type="submit" class="btn btn-outline-warning">Sign Up</button>
+                </form>
+              </div>
+
+              <!---Social Media-->
+              <div class="col-6">
+                <h4 class="footer-ask">Our Social Media</h4>
+                <i class="fa-brands fa-instagram text-light logo-text">orchestro.au</i> <br>
+                <i class="fa-brands fa-facebook text-light logo-text">orchestro.au</i> <br>
+                <i class="fa-brands fa-square-x-twitter text-light logo-text"> orchestro.au</i> <br>
+                <i class="fa-brands fa-linkedin text-light logo-text">Orchestro Queensland</i> <br>
+                <i class="fa-brands fa-youtube text-light logo-text">Orchestro Queensland</i>
+              </div>
+              </div>
+
+              
+              <!---Acknowledgment--->
+              <div class="mt-5">
+                <span class="acknowledgement-text">© 2026 Orchestro</span>
+                <p class="acknowledgement-text">Orchestro acknowledge the Traditional Custodians of the land on which this event takes place, and pay our respects to Elders past, present and emerging.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

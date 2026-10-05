@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Your Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style/n12218324.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+         <!--NAVBAR-->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container-fluid p-3 mb-2 ">
+              <a class="navbar-brand" href="n12218324_home.html">Orchestro</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="n12218324_home.html">Home</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About Us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Orchestro</a></li>
+                    <li><a class="dropdown-item" href="#">The Location</a></li>
+                  </ul>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="n12218324_events.html">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="n12218324_create-events.html">Create Events</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Booking
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">My Booking</a></li>
+                        <li><a class="dropdown-item" href="n12218324_history.html">Booking History</a></li>
+                      </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+          <!--Event Banner-->
+          <section class="banner-history">
+            <div class="container">   
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="n12218324_home.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Create Event</li>
+                </ol>
+              </nav>
+                  </nav>
+                  <h1 class="event-title">Create a Perfomance</h1>
+                  <p class="concert-history create-small">Complete the details below to publish your event to the Orchestro programme.</p>
+              </div> 
+          </section>
+
+          
+          <!---Form 1-->
+          <div class="form-box mt-5">
+            <div class="card-label">Step 1</div>
+            <div class="card-section mb-2">Event Information</div>
+            <div class="divider-gold"></div>
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Event Title</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder=".Beethoven Symphony No.5">
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Genre / Category</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Chamber Music</option>
+                  <option>Opera</option>
+                  <option>Orchestra</option>
+                  <option>Recital</option>
+                  <option>Symphony</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid Genre / Category.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Event Status</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Open</option>
+                  <option>Sold Out</option>
+                  <option>Inactive</option>
+                  <option>Cancelled</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid Status.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Provide details about the performance, featured soloists, the conductor, and what makes this event truly special...."></textarea>
+                <div class="characters mt-3">0/1000 characters
+                </div>
+              </div>
+            </form>
+          </div>
+
+          
+          <!---Form 2-->
+          <div class="form-box mt-5">
+            <div class="card-label">Step 2</div>
+            <div class="card-section mb-2">Date, Time, & Venue</div>
+            <div class="divider-gold"></div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Date</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="dd/mm/yy">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Start Time</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="--.--">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">End Time</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="--.--">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Venue Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Queensland Symphony Orchestra">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Full address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. 114 Grey St, South Brisbane QLD 4101">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Total seat capacity</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. 900">
+            </div>
+          </div>
+
+          <!---Form 3-->
+          <div class="form-box mt-5">
+            <div class="card-label">Step 3</div>
+            <div class="card-section mb-2">Ticket Tiers & Pricing</div>
+            <div class="divider-gold"></div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Tier Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Diamond">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Price (AUD)</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. $45">
+            </div>
+            <button type="button" class="btn btn-outline-warning btn-additional rounded-0">+ Add aditional ticket tier</button>
+          </div>
+
+
+          <!---Form 4-->
+          <div class="form-box mt-5">
+            <div class="card-label">Step 4</div>
+              <div class="card-section mb-2">Event Image</div>
+              <div class="divider-gold"></div>
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Default file input example</label>
+                <input class="form-control" type="file" id="formFile">
+                <div class="characters mt-3"> 
+                  Recommended: 1200 × 630px  |  JPG or PNG  |  Max 5MB
+                  <br>
+                  <br>
+                  Important Note:  Please choose the most entertaining photo because this could be the one that audience member see.
+                </div>
+              </div>
+          </div>
+
+          <!---Form 5-->
+          <div class="form-box mt-5">
+            <div class="card-label">Step 5</div>
+            <div class="card-section mb-2">Additional Information</div>
+            <div class="divider-gold"></div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Conductor</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Simone Young">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Featured Soloist</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. George Harliono - Piano">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">End Time</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="--.--">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Venue Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Queensland Symphony Orchestra">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Programme Notes</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="List the works being performed, e.g. Tchaikovsky – Nocturne Op.9 No.1 | Beethoven – Symphony No. 5"></textarea>
+            </div>
+          </div>
+
+        <!-- Button trigger publish -->
+        <button type="button" class="btn btn-outline-warning rounded-0 mt-3 ms-3" data-bs-toggle="modal" data-bs-target="#publishEvent">
+          Publish Event
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="publishEvent" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="publishEventLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="publishEventLabel">Orchestro</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Thank you for submitting your event.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!-- Button trigger draft -->
+        <button type="button" class="btn btn-outline-warning rounded-0 mt-3 ms-2" data-bs-toggle="modal" data-bs-target="#saveDraft">
+          Save Draft
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="saveDraft" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="saveDraftLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="saveDraftLabel">Orchestro</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Your event has been saved as a draft.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+          
+    </main>
+
+    <footer>
+      <div class="center-footer">
+        <div class="main-footer">
+          <div class="container">
+          <div class="left-footer">
+
+            <!---Logo Orchestro--->
+              <div>
+                <div class="mt-3">
+                  <img src="static/img/orchestro.png" class="logo-img ms-1">
+                </div>
+                <h3 class="info-left mt-3"> Orchestro</h3>
+                <p class="info-left footer-event">Orchestral experiences, perfectly composed.</p>
+              </div>
+              <div class="divider-gold"></div>
+
+              <!----Keep in Touch-->
+              <div class="row">
+              <div class="col-6">
+                <h4 class="footer-ask">Want to keep in touch?</h4>
+                <form>
+                  <div class="mb-3">
+                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <button type="submit" class="btn btn-outline-warning">Sign Up</button>
+                </form>
+              </div>
+
+              <!---Social Media-->
+              <div class="col-6">
+                <h4 class="footer-ask">Our Social Media</h4>
+                <i class="fa-brands fa-instagram text-light logo-text">orchestro.au</i> <br>
+                <i class="fa-brands fa-facebook text-light logo-text">orchestro.au</i> <br>
+                <i class="fa-brands fa-square-x-twitter text-light logo-text"> orchestro.au</i> <br>
+                <i class="fa-brands fa-linkedin text-light logo-text">Orchestro Queensland</i> <br>
+                <i class="fa-brands fa-youtube text-light logo-text">Orchestro Queensland</i>
+              </div>
+              </div>
+
+              
+              <!---Acknowledgment--->
+              <div class="mt-5">
+                <span class="acknowledgement-text">© 2026 Orchestro</span>
+                <p class="acknowledgement-text">Orchestro acknowledge the Traditional Custodians of the land on which this event takes place, and pay our respects to Elders past, present and emerging.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+

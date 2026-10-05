@@ -1,0 +1,495 @@
+.navbar-brand, .nav-link, .text-gold, h4 {
+    color:goldenrod;
+}
+
+.navbar-brand, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-link, .nav-link.active, .hero-section, .card-title{
+    font-family: 'Raleway', serif;
+}
+
+.nav-link.active {
+    color: white !important;
+
+}
+.card {
+    background-color: #2b1a0f;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    color: goldenrod;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.item {
+    background-color: black;
+}
+
+.button-background {
+    background-color: rgba(255, 255, 255, 0.913);
+}
+
+header, main, footer {
+    background-color: black;
+} 
+
+footer{
+    margin: 20px;
+    height: auto;
+    background:rgba(201,168,76,.1);
+    ;
+}
+
+.feature-icon {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    margin-top: 60px;
+    display: block;
+}
+
+.feature-strip{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-attachment: fixed;
+    padding: 5px;
+}
+
+.container {
+    max-width: 960px
+}
+
+.footer-brand {
+    font-family: 'Playfair Display', serif;
+    color: goldenrod;
+    font-size: mlaedium;
+}
+
+.center-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.info-left {
+    color: goldenrod;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-event {
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: small;
+    color:#F5E7C2;
+}
+
+.hero {
+    height: 420px;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center-top;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+
+.breadcrumb-item a {
+    color: #d4af37; 
+    text-decoration: none;
+    font-family: 'Raleway', serif;
+}
+
+.breadcrumb-item.active {
+    color: white;
+    font-family: 'Raleway', serif;
+}
+
+.breadcrumb-item a:hover {
+    color: #ffd700;
+    font-family: 'Raleway', serif;
+}
+
+.status-open {
+    background: rgba(214, 181, 73, 0.15);
+    color: #ffe600aa;
+    border: 1px solid rgba(175, 165, 76, 0.3);
+    font-family: 'Raleway', serif;
+}
+
+.status-upcoming {
+    background: rgba(87, 214, 48, 0.15);
+    color: hsla(102, 100%, 50%, 0.667);
+    border: 1px solid rgba(101, 190, 71, 0.3);
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.status-attended {
+    background: rgba(55, 57, 55, 0.15);
+    color: hsl(100, 2%, 30%);
+    border: 1px solid rgb(51, 51, 51);
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.status-cancelled {
+    background: rgba(211, 79, 79, 0.353);
+    color: hsl(0, 90%, 49%);
+    border: 1px solid rgba(255, 0, 0, 0.772);
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.status-inactive {
+    background: rgba(100, 101, 100, 0.475);
+    color: hsl(100, 2%, 35%);
+    border: 1px solid rgb(51, 51, 51);
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.status-limited {
+    background: rgba(206, 203, 34, 0.874);
+    color: hsla(52, 100%, 50%, 0.891);
+    border: 1px solid rgb(51, 51, 51);
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.status-sold {
+    background: rgba(100, 101, 100, 0.475);
+    color: hsl(0, 100%, 52%);
+    border: 1px solid rgb(51, 51, 51);
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.text-cancelled {
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    color: #9A9080;
+    font-size: x-small;
+}
+
+.event-title {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.event-text {
+    color: white;
+    font-family: 'Raleway', serif;
+}
+
+.info-bar {
+    background: rgb(212, 175, 55, 0.2);
+    border-bottom: 1px solid rgba(201, 168, 76, .12);
+    padding: 1.2rem 0;
+}
+
+.info-label {
+    color: white;
+    font-family: 'Raleway', serif;
+    font-size: x-small;
+}
+
+.info-value{
+    color: white;
+    font-family: 'Raleway', serif;
+}
+
+.main-content {
+    padding: 80px 0;
+}
+
+.section-label {
+    letter-spacing: 3px;
+    font-size: small;
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    color: goldenrod;
+}
+.content-description {
+    color: #c8bfb0;
+    font-size: small;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.section-title {
+    color: #f5efe0;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.divider-gold {
+    width: 50px;
+    height: 1px;
+    background: gold;
+    margin: 1rem 0 ;
+}
+
+.reserve-box {
+    background: rgba(29, 21, 14, 0.95);
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    max-width: 420px;
+}
+
+.card-text {
+    color:white; 
+    letter-spacing: 1px;
+    font-size: small;
+}
+
+.ticket-desc {
+    font-size: x-small;
+    color: #9a9080;
+    margin-top: 2%;
+}
+
+.ticket-name {
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.modal-body{
+    text-transform: uppercase;
+    font-family: 'Raleway',serif;
+    font-size: small;
+    color: #ffbb00;
+}
+
+.text-cream {
+    color: #F5E7C2;
+    font-family: 'Playfair Display', serif;
+    font-size: small;
+}
+
+body {
+    background-color: black;
+}
+
+.section-programme {
+    color: #d4af37;
+    font-size: small;
+    letter-spacing: 4px;
+}
+
+.programme-box{
+    display: flex;
+    gap: 1rem;
+    padding: 1 rem;
+    margin: 1.2rem;
+    align-items: self-start;
+}
+
+.number-box {
+    font-family: 'Playfair Display', serif;
+    color: #F5E7C2;
+    font-size: medium;
+}
+
+.first-programme {
+    color: goldenrod;
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+
+.list-programme {
+    color: #F5EFE0;
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    
+}
+
+.programme-duration {
+    color: goldenrod;
+    font-family: 'Playfair Display', serif;
+    font-size: smaller;
+}
+
+.approximate, .comment-date {
+    color: #F5EFE0;
+    font-family: 'Playfair Display', serif;
+    font-size: x-small;
+}
+
+.comment-card {
+    background: rgb(218, 165, 32, 0.2) ;
+    border: 1px solid #ffd700;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.comment-author {
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 1px;
+}
+
+.concert-history {
+    margin: 2px;
+    color: goldenrod;
+    font-size: smaller;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.banner-history, .total-booking {
+    padding: 35px;
+    height: 5cm;
+    background-color: rgb(218, 165, 32, 0.1);
+    border-bottom: 1px solid rgba(179, 142, 41, 0.445);;
+}
+
+.total-booking {
+    height: 7cm;
+    background-color: rgba(223, 198, 135, 0.292);
+    border-bottom: 1px solid rgba(179, 142, 41, 0.445);;
+}
+
+.number-history {
+    color: #C9A84C;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: x-large;
+}
+
+.caption-history {
+    color: #9A9080;
+    font-family: 'Raleway',sans-serif;
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.bookings-button, .btn-details, .create-small {
+    font-size: x-small;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.custom-card {
+    background: #1a120b;
+    border: 1px solid #c9a84c !important;
+    overflow: hidden;
+}
+.custom-card {
+    padding: 2px;
+}
+.left-strip {
+    background: linear-gradient(180deg, #2a1a0f, #1a120b);
+    border-right: 1px solid rgba(201, 168, 76, 0.3);
+    color: #c9a84c;
+    font-size: 2rem;
+}
+
+.form-box {
+    padding: 2.5rem;
+    border: #ba8e62;
+    background: #1F1A14;
+}
+
+.card-label {
+    color: goldenrod;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: x-small;
+    letter-spacing: 2px;
+    margin: 2px;
+}
+
+.card-section {
+    color:#F5E7C2;
+    font-family: 'Playfair Display', 'sans-serif';
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+.form-label {
+    color:#9a9080;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+.characters {
+    color: #ba8e62;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: xx-small;
+    letter-spacing: 2px;
+}
+
+.btn-additional {
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.logo-img {
+    width: 50px;  
+    height: auto;
+  }
+
+h4.footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-ask {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.logo-text {
+    font-size: small;
+    font-family: 'Raleway', sans-serif; 
+    color:#9a9080;
+    text-transform: lowercase;
+}
+
+.ack,.acknowledgement-text {
+    font-family: 'Playfair Display', 'serif';
+    font-size: small;
+    color: #ba8e62;
+}
+
+.dresscode {
+    font-family: 'Playfair Display', 'serif';
+    font-size: medium;
+    color: white
+}
